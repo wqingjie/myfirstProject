@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul,li{
+    list-style: none;
+}
+input{
+    outline: none;
+    display: block;
+}
+.box{
+    margin: 0 auto;
+    width: 800px;
+    padding: 10px;
+    border: 1px solid #32e97d;
+    border-radius: 3px;
+    box-shadow: 3px 3px 3px 0 #aaaaaa;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    overflow: hidden;
+}
+.box h2{
+    width: 100%;
+    overflow: hidden;
+}
+.box h2 span{
+    float: left;
+    display: block;
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background: #32e97d;
+    font-size: 20px;
+}
+.box .boxList li{
+    width: 100%;
+    height: 30px;
+}
+.box .boxList li:nth-child(even){
+    background: #f8f8f8;
+}
+
+.box .boxList li span{
+    float: left;
+    display: block;
+    width: 200px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 13px;
+}
+.box .page{
+    padding-top: 10px;
+    float: right;
+}
+.box .page >*{
+    cursor: pointer;
+    display: block;
+    float: left;
+}
+.box .page >span,.box .page >input{
+    margin-left: 5px;
+    width: 45px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    border: 1px solid #32e97d;
+    font-size: 13px;
+}
+.box .page >ul li{
+    float: left;
+    margin-left: 5px;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    border: 1px solid #32e97d;
+    font-size: 13px;
+}
+.box .page >ul li.bg{
+    background: #32e97d;
+}
