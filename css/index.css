@@ -228,8 +228,8 @@ html, body {
 }
 
 #page1 img:nth-child(2) {
-    -webkit-animation: zoomIn 1s .3s both;
-    animation: zoomIn 1s .3s both;
+    -webkit-animation: flip 1s .3s both;
+    animation: flip 1s .3s both;
 }
 
 #page1 img:nth-child(3) {
