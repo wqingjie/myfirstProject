@@ -1,28 +1,67 @@
 <!DOCTYPE html>
 <html>
-<head lang="en">
+<head>
     <meta charset="UTF-8">
-    <title></title>
-    <link type="text/css" rel="stylesheet" href="./css/index.css"/>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+    <meta name="format-detection" content="telephone=no"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <title>个人简介</title>
+    <link type="text/css" rel="stylesheet" href="css/swiper.min.css"/>
+    <link type="text/css" rel="stylesheet" href="css/index.css"/>
 </head>
 <body>
-<div class="box">
-    <h2>
-        <span>学号</span>
-        <span>姓名</span>
-        <span>性别</span>
-        <span>分数</span>
-    </h2>
-    <ul class="boxList" id="boxList"></ul>
-    <div class="page" id="page">
-        <span>首页</span>
-        <span>上一页</span>
-        <ul class="pageList" id="pageList"></ul>
-        <span>下一页</span>
-        <span>尾页</span>
-        <input class="pageInput" id="pageInput" type="text" value="1"/>
+<section class="swiper-container">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide pageFir" trueId="page1">
+            <img src="img/fir-1.png"/>
+            <img src="img/fir-2.png"/>
+            <img src="img/fir-3.png"/>
+            <img src="img/fir-4.png"/>
+        </div>
+
+        <div class="swiper-slide pageTwo" trueId="page2">
+            <img src="img/two-1.png"/>
+            <img src="img/two-2.png"/>
+            <img src="img/two-3.png"/>
+            <img src="img/two-4.png"/>
+            <img src="img/two-5.png"/>
+        </div>
+        <div class="swiper-slide pageThr" trueId="page3">
+            <img src="img/thr-1.png"/>
+            <img src="img/thr-2.png"/>
+            <img src="img/thr-3.png"/>
+            <img src="img/thr-4.png"/>
+        </div>
+
+        <div class="swiper-slide pageFor" trueId="page4">
+            <img src="img/for-1.png"/>
+            <img src="img/for-2.png"/>
+            <img src="img/for-3.png"/>
+            <img src="img/for-4.png"/>
+            <img src="img/for-5.png"/>
+        </div>
+
+        <div class="swiper-slide pageFiv" trueId="page5">
+            <img src="img/fiv-1.png"/>
+            <img src="img/fiv-2.png"/>
+        </div>
     </div>
-</div>
+</section>
+<section class="arrow">
+    <span></span>
+    <span></span>
+</section>
+<section class="audio">
+    <audio class="audioMp3" src="audioFile/Beautiful%20Day.mp3" loop preload="none"/>
+</section>
+
+<script charset="utf-8" type="text/javascript" src="js/swiper.min.js"></script>
+<script charset="utf-8" type="text/javascript" src="js/fastClick.js"></script>
+<script charset="utf-8" type="text/javascript" src="js/index.js"></script>
+<script type="text/javascript">
+    FastClick.attach(document.body);
+</script>
 </body>
 </html>
-<script type="text/javascript" src="./js/index.js"></script>
