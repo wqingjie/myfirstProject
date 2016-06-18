@@ -179,7 +179,7 @@ html, body {
 }
 
 .pageFiv {
-    background: url("../img/bg3.png") no-repeat;
+    background: url("../img/bg2.png") no-repeat;
     background-size: 100% 100%;
 }
 
@@ -192,7 +192,7 @@ html, body {
 .pageFir img:nth-child(1) {
     z-index: 5;
     left: 4.2rem;
-    top: 0rem;
+    top: 0;
     width: 2.24rem;
     height: 1.8rem;
 }
@@ -206,17 +206,18 @@ html, body {
 }
 
 .pageFir img:nth-child(3) {
-    z-index: 3;
+    z-index: 30;
     left: .5rem;
     top: 3.5rem;
     width: 5.14rem;
     height: 3.26rem;
+    opacity: 1;
 }
 
 .pageFir img:nth-child(4) {
     z-index: 2;
     left: 2.34rem;
-    bottom: 1.3rem;
+    top: 9.3rem;
     width: 1.77rem;
     height: .7rem;
 }
@@ -232,8 +233,8 @@ html, body {
 }
 
 #page1 img:nth-child(3) {
-    -webkit-animation: fadeInRight .5s .5s both,swing 1s 1.5s both;
-    animation: fadeInRight .5s .5s both,swing 1s 1.5s both;
+    -webkit-animation: swing 1s 1.5s both;
+    animation: swing 1s 1.5s both;
 
 }
 
@@ -257,6 +258,7 @@ html, body {
 }
 
 .pageTwo img:nth-child(2) {
+    z-index: 40;
     top: 2.1rem;
     left: -.2rem;
     width: 3.63rem;
@@ -264,6 +266,7 @@ html, body {
 }
 
 .pageTwo img:nth-child(3) {
+    z-index: 40;
     top: 2.5rem;
     left: 3.3rem;
     width: 2.72rem;
